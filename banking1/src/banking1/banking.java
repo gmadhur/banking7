@@ -2,11 +2,21 @@
 package banking1;
 import java.util.Scanner;
 
+/*
+ * @author madhur
+*  @date 01-06-2018
+*  banking application
+*/
+
 public class banking 
 {
     double accno;
     double bal;
     
+    /*
+    *finction 
+    *
+    */
     
     void deposit(double damt)
     {
@@ -29,6 +39,7 @@ public class banking
     public static void main(String[] args) 
     {
         int i,c;
+        
         c=0;
         Scanner inp = new Scanner(System.in);
        banking[] a = new banking[20];
